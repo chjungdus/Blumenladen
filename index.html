@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lonzen & Heucher GmbH – Ihr Blumenfachgeschäft in Düsseldorf. Floristik, Trauerfloristik und Grabpflege mit Erfahrung und Herz." />
+  <title>Lonzen & Heucher GmbH – Blumenfachgeschäft Düsseldorf</title>
+
+  <!-- Google Fonts: Playfair Display (headings) + Lato (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+
+      <!-- Logo / Brand -->
+      <a href="#home" class="logo" aria-label="Lonzen & Heucher – Startseite">
+        <span class="logo-icon">✿</span>
+        <span class="logo-text">
+          <strong>Lonzen &amp; Heucher</strong>
+          <small>Blumenfachgeschäft · Düsseldorf</small>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <ul class="nav-list">
+          <li><a href="#home"      class="nav-link">Startseite</a></li>
+          <li><a href="#services"  class="nav-link">Leistungen</a></li>
+          <li><a href="#gallery"   class="nav-link">Galerie</a></li>
+          <li><a href="#about"     class="nav-link">Über uns</a></li>
+          <li><a href="#contact"   class="nav-link nav-link--cta">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile hamburger button -->
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile Navigation" aria-hidden="true">
+      <ul class="mobile-nav__list">
+        <li><a href="#home"      class="mobile-nav__link">Startseite</a></li>
+        <li><a href="#services"  class="mobile-nav__link">Leistungen</a></li>
+        <li><a href="#gallery"   class="mobile-nav__link">Galerie</a></li>
+        <li><a href="#about"     class="mobile-nav__link">Über uns</a></li>
+        <li><a href="#contact"   class="mobile-nav__link">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section id="home" class="hero">
+      <!-- Background image set via CSS; overlay for readability -->
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Blumenfachgeschäft in Düsseldorf</p>
+        <h1 class="hero__title">
+          Blumen mit<br />
+          <em>Herz und Tradition</em>
+        </h1>
+        <p class="hero__subtitle">
+          Seit Jahrzehnten gestalten wir mit Leidenschaft und Sorgfalt –
+          für jeden Anlass, mit Respekt und Gefühl.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Jetzt anfragen</a>
+          <a href="#services" class="btn btn--outline">Unsere Leistungen</a>
+        </div>
+      </div>
+      <!-- Scroll indicator -->
+      <a href="#services" class="hero__scroll-hint" aria-label="Nach unten scrollen">
+        <span class="hero__scroll-arrow">&#8595;</span>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         INTRO / USP STRIP
+    ============================================================ -->
+    <section class="intro-strip" aria-label="Kurzübersicht">
+      <div class="container intro-strip__grid">
+        <div class="intro-strip__item">
+          <span class="intro-strip__icon" aria-hidden="true">✿</span>
+          <h3>Frische Floristik</h3>
+          <p>Täglich frische Blumen direkt vom Großmarkt – sorgfältig ausgewählt.</p>
+        </div>
+        <div class="intro-strip__item">
+          <span class="intro-strip__icon" aria-hidden="true">✦</span>
+          <h3>Trauerfloristik</h3>
+          <p>Würdevolle Arrangements für den Abschied – einfühlsam und respektvoll.</p>
+        </div>
+        <div class="intro-strip__item">
+          <span class="intro-strip__icon" aria-hidden="true">❧</span>
+          <h3>Grabpflege</h3>
+          <p>Zuverlässige und liebevolle Grabpflege das ganze Jahr über.</p>
+        </div>
+        <div class="intro-strip__item">
+          <span class="intro-strip__icon" aria-hidden="true">◈</span>
+          <h3>Erfahrung &amp; Vertrauen</h3>
+          <p>Jahrzehntelange Erfahrung im Herzen von Düsseldorf.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT TEASER (homepage short version)
+    ============================================================ -->
+    <section class="about-teaser section-padding">
+      <div class="container about-teaser__grid">
+        <!-- Image collage -->
+        <div class="about-teaser__images">
+          <figure class="about-teaser__img about-teaser__img--main">
+            <img src="images/shop-1.jpg" alt="Innenansicht unseres Blumenladens in Düsseldorf" loading="lazy" />
+          </figure>
+          <figure class="about-teaser__img about-teaser__img--accent">
+            <img src="images/shop-3.jpg" alt="Bunte Blumenarrangements in unserem Geschäft" loading="lazy" />
+          </figure>
+        </div>
+
+        <!-- Text -->
+        <div class="about-teaser__text">
+          <span class="section-label">Unser Geschäft</span>
+          <h2 class="section-title">Floristik mit Tradition und Leidenschaft</h2>
+          <p>
+            Das Blumenfachgeschäft <strong>Lonzen &amp; Heucher GmbH</strong> ist seit
+            vielen Jahren ein fester Bestandteil des Düsseldorfer Stadtlebens.
+            Mit Sachverstand, Kreativität und einem offenen Herz für jeden Kunden
+            gestalten wir Blumenarrangements für alle Lebenslagen.
+          </p>
+          <p>
+            Ob ein fröhlicher Geburtstagsstrauß, eine elegante Hochzeitsdekoration
+            oder ein würdevoller Trauerkranz – wir begleiten Sie mit Einfühlungsvermögen
+            und handwerklicher Qualität.
+          </p>
+          <a href="#about" class="btn btn--secondary">Mehr über uns</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section id="services" class="services section-padding section-padding--alt">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Was wir anbieten</span>
+          <h2 class="section-title">Unsere Leistungen</h2>
+          <p class="section-intro">
+            Von der alltäglichen Floristik bis hin zu Trauer- und Hochzeitsarrangements –
+            wir sind für Sie da.
+          </p>
+        </header>
+
+        <div class="services__grid">
+
+          <!-- Service 1: Everyday Floristry -->
+          <article class="service-card">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <span class="service-card__icon">✿</span>
+            </div>
+            <h3 class="service-card__title">Alltägliche Floristik</h3>
+            <p class="service-card__text">
+              Frische Sträuße, Gestecke und Zimmerpflanzen für jeden Tag und jeden Anlass –
+              individuell gebunden nach Ihren Wünschen. Wir beraten Sie persönlich und
+              finden das Richtige für Sie.
+            </p>
+            <ul class="service-card__list">
+              <li>Geburtstagssträuße</li>
+              <li>Saisonal wechselnde Arrangements</li>
+              <li>Zimmerpflanzen &amp; Übertöpfe</li>
+              <li>Geschenkgestecke</li>
+            </ul>
+          </article>
+
+          <!-- Service 2: Funeral Floristry -->
+          <article class="service-card service-card--featured">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <span class="service-card__icon">✦</span>
+            </div>
+            <h3 class="service-card__title">Trauerfloristik</h3>
+            <p class="service-card__text">
+              In Zeiten des Abschieds begleiten wir Sie mit Würde und Einfühlungsvermögen.
+              Wir gestalten Trauerkränze, Gestecke und Blumengebinde, die dem
+              Verstorbenen ein letztes Ehre erweisen.
+            </p>
+            <ul class="service-card__list">
+              <li>Trauerkränze</li>
+              <li>Sargschmuck &amp; Blumengebinde</li>
+              <li>Trauergestecke für Zuhause</li>
+              <li>Individuelle Abschiedsarrangements</li>
+            </ul>
+          </article>
+
+          <!-- Service 3: Grave Care -->
+          <article class="service-card">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <span class="service-card__icon">❧</span>
+            </div>
+            <h3 class="service-card__title">Grabpflege</h3>
+            <p class="service-card__text">
+              Wir übernehmen die liebevolle und zuverlässige Pflege von Gräbern –
+              das ganze Jahr über. Damit die letzte Ruhestätte Ihrer Angehörigen
+              stets gepflegt und würdevoll aussieht.
+            </p>
+            <ul class="service-card__list">
+              <li>Saisonale Grabbepflanzung</li>
+              <li>Regelmäßige Grabpflege</li>
+              <li>Grablichtservice</li>
+              <li>Jahrespflegeverträge</li>
+            </ul>
+          </article>
+
+          <!-- Service 4: Wedding Floristry -->
+          <article class="service-card">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <span class="service-card__icon">◈</span>
+            </div>
+            <h3 class="service-card__title">Hochzeitsfloristik</h3>
+            <p class="service-card__text">
+              Ihr besonderer Tag verdient besondere Blumen. Von der Brautdekoration
+              über Tischgestecke bis hin zu Blumenbögen – wir verwandeln Ihren
+              Hochzeitstraum in blühende Wirklichkeit.
+            </p>
+            <ul class="service-card__list">
+              <li>Brautstrauß &amp; Anstecker</li>
+              <li>Kirchendekoration</li>
+              <li>Tischdekoration</li>
+              <li>Persönliche Beratung &amp; Planung</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <!-- CTA after services -->
+        <div class="services__cta">
+          <p>Haben Sie einen besonderen Wunsch? Wir beraten Sie gerne persönlich.</p>
+          <a href="#contact" class="btn btn--primary">Anfrage stellen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         GALLERY SECTION
+    ============================================================ -->
+    <section id="gallery" class="gallery section-padding">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Einblicke</span>
+          <h2 class="section-title">Unsere Galerie</h2>
+          <p class="section-intro">Ein Blick in unseren Laden und auf unsere Arbeiten.</p>
+        </header>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item gallery__item--wide">
+            <img src="images/shop-1.jpg" alt="Innenansicht des Blumenladens Lonzen & Heucher" loading="lazy" />
+            <figcaption>Unser Geschäft – einladend und stimmungsvoll</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/shop-2.jpg" alt="Blumenarrangements im Laden" loading="lazy" />
+            <figcaption>Frische Sträuße und Gestecke</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/shop-3.jpg" alt="Farbenfrohe Blumen im Schaufenster" loading="lazy" />
+            <figcaption>Saisonale Blütenpracht</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/funeral-arrangement.jpg" alt="Trauergesteck mit Kerze und Nadelzweigen" loading="lazy" />
+            <figcaption>Würdevolles Trauergesteck</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION (full)
+    ============================================================ -->
+    <section id="about" class="about section-padding section-padding--alt">
+      <div class="container about__grid">
+
+        <div class="about__text">
+          <span class="section-label">Über uns</span>
+          <h2 class="section-title">Ein Familienunternehmen aus Düsseldorf</h2>
+          <p>
+            Die <strong>Lonzen &amp; Heucher GmbH</strong> ist ein traditionsreiches
+            Blumenfachgeschäft im Herzen von Düsseldorf. Gegründet mit dem festen Glauben,
+            dass Blumen mehr sind als Dekoration – sie tragen Gefühle, überbringen
+            Botschaften und begleiten die wichtigsten Momente des Lebens.
+          </p>
+          <p>
+            Unser erfahrenes Floristik-Team steht Ihnen mit Rat und Tat zur Seite –
+            ob für einen spontanen Strauß oder eine aufwendige Veranstaltungsdekoration.
+            Qualität, Frische und persönliche Beratung stehen bei uns stets an erster Stelle.
+          </p>
+          <p>
+            Besonders am Herzen liegt uns die <strong>Trauerfloristik</strong>: In schwierigen
+            Zeiten möchten wir durch würdevolle, stimmungsvolle Blumenarrangements einen
+            kleinen Beitrag zum Trost leisten. Wir gehen dabei sehr einfühlsam und
+            respektvoll vor.
+          </p>
+
+          <!-- Trust indicators -->
+          <ul class="about__trust-list">
+            <li>
+              <span class="about__trust-icon" aria-hidden="true">✓</span>
+              Jahrzehntelange Erfahrung in der Floristik
+            </li>
+            <li>
+              <span class="about__trust-icon" aria-hidden="true">✓</span>
+              Persönliche, individuelle Beratung
+            </li>
+            <li>
+              <span class="about__trust-icon" aria-hidden="true">✓</span>
+              Täglich frische Blumen vom Großmarkt
+            </li>
+            <li>
+              <span class="about__trust-icon" aria-hidden="true">✓</span>
+              Zuverlässige Grabpflege das ganze Jahr
+            </li>
+          </ul>
+        </div>
+
+        <!-- Image -->
+        <div class="about__image-wrap">
+          <figure class="about__image">
+            <img src="images/shop-2.jpg" alt="Floristin bei der Arbeit im Laden" loading="lazy" />
+          </figure>
+          <!-- Decorative badge -->
+          <div class="about__badge" aria-hidden="true">
+            <span class="about__badge-icon">✿</span>
+            <span>Ihr Florist<br/>in Düsseldorf</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT SECTION
+    ============================================================ -->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Sprechen Sie uns an</span>
+          <h2 class="section-title">Kontakt &amp; Anfahrt</h2>
+          <p class="section-intro">
+            Wir freuen uns auf Ihre Anfrage – persönlich im Laden, telefonisch oder per Formular.
+          </p>
+        </header>
+
+        <div class="contact__grid">
+
+          <!-- Contact Info -->
+          <div class="contact__info">
+            <h3 class="contact__info-title">So erreichen Sie uns</h3>
+
+            <address class="contact__address">
+              <dl class="contact__dl">
+
+                <dt class="contact__dl-label">
+                  <span aria-hidden="true">📍</span> Adresse
+                </dt>
+                <dd class="contact__dl-value">
+                  Lonzen &amp; Heucher GmbH<br />
+                  Musterstraße 12<br />
+                  40213 Düsseldorf
+                </dd>
+
+                <dt class="contact__dl-label">
+                  <span aria-hidden="true">📞</span> Telefon
+                </dt>
+                <dd class="contact__dl-value">
+                  <a href="tel:+49211123456">+49 (0)211 123 456</a>
+                </dd>
+
+                <dt class="contact__dl-label">
+                  <span aria-hidden="true">✉</span> E-Mail
+                </dt>
+                <dd class="contact__dl-value">
+                  <a href="mailto:info@lonzen-heucher.de">info@lonzen-heucher.de</a>
+                </dd>
+
+                <dt class="contact__dl-label">
+                  <span aria-hidden="true">🕐</span> Öffnungszeiten
+                </dt>
+                <dd class="contact__dl-value">
+                  <table class="contact__hours">
+                    <tr><td>Mo – Fr</td><td>08:00 – 18:00 Uhr</td></tr>
+                    <tr><td>Samstag</td><td>08:00 – 16:00 Uhr</td></tr>
+                    <tr><td>Sonntag</td><td>Geschlossen</td></tr>
+                  </table>
+                </dd>
+
+              </dl>
+            </address>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact__form-wrap">
+            <h3 class="contact__info-title">Nachricht senden</h3>
+            <form class="contact-form" id="contact-form" novalidate>
+
+              <div class="form-group">
+                <label class="form-label" for="name">Ihr Name <span aria-hidden="true">*</span></label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Max Mustermann"
+                  required
+                  autocomplete="name"
+                />
+                <span class="form-error" id="name-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">E-Mail-Adresse <span aria-hidden="true">*</span></label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="max@beispiel.de"
+                  required
+                  autocomplete="email"
+                />
+                <span class="form-error" id="email-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Telefon (optional)</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+49 (0)211 ..."
+                  autocomplete="tel"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="subject">Betreff <span aria-hidden="true">*</span></label>
+                <select class="form-input form-select" id="subject" name="subject" required>
+                  <option value="">Bitte wählen …</option>
+                  <option value="everyday">Alltägliche Floristik</option>
+                  <option value="funeral">Trauerfloristik</option>
+                  <option value="grave">Grabpflege</option>
+                  <option value="wedding">Hochzeitsfloristik</option>
+                  <option value="other">Sonstiges</option>
+                </select>
+                <span class="form-error" id="subject-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Ihre Nachricht <span aria-hidden="true">*</span></label>
+                <textarea
+                  class="form-input form-textarea"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Wie können wir Ihnen helfen?"
+                  required
+                ></textarea>
+                <span class="form-error" id="message-error" role="alert"></span>
+              </div>
+
+              <div class="form-group form-group--checkbox">
+                <label class="form-checkbox-label">
+                  <input type="checkbox" id="privacy" name="privacy" required />
+                  <span>
+                    Ich habe die <a href="#" class="form-link">Datenschutzerklärung</a> gelesen
+                    und bin mit der Verarbeitung meiner Daten einverstanden. <span aria-hidden="true">*</span>
+                  </span>
+                </label>
+                <span class="form-error" id="privacy-error" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full">
+                Nachricht senden
+              </button>
+
+              <!-- Success message (hidden by default) -->
+              <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+                ✓ Vielen Dank! Ihre Nachricht wurde gesendet. Wir melden uns bald bei Ihnen.
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="contact__map" aria-label="Kartenansicht des Standorts">
+          <div class="contact__map-placeholder">
+            <span class="contact__map-icon" aria-hidden="true">🗺</span>
+            <p>
+              <strong>Karte: Lonzen &amp; Heucher GmbH</strong><br />
+              Musterstraße 12, 40213 Düsseldorf
+            </p>
+            <a
+              href="https://www.google.com/maps/search/Musterstra%C3%9Fe+12+40213+D%C3%BCsseldorf"
+              class="btn btn--outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              In Google Maps öffnen
+            </a>
+          </div>
+          <!--
+            HINWEIS FÜR ENTWICKLER:
+            Ersetzen Sie diesen Platzhalter durch einen echten Google Maps iframe:
+            <iframe
+              src="https://www.google.com/maps/embed?pb=..."
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+
+      <div class="site-footer__brand">
+        <span class="logo-icon" aria-hidden="true">✿</span>
+        <strong>Lonzen &amp; Heucher GmbH</strong>
+        <p>Blumenfachgeschäft in Düsseldorf.<br />Mit Herz für Blumen seit Jahrzehnten.</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Footer Navigation">
+        <h4 class="site-footer__heading">Schnellzugriff</h4>
+        <ul class="site-footer__list">
+          <li><a href="#home">Startseite</a></li>
+          <li><a href="#services">Leistungen</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#about">Über uns</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__contact">
+        <h4 class="site-footer__heading">Kontakt</h4>
+        <address class="site-footer__address">
+          Musterstraße 12<br />
+          40213 Düsseldorf<br /><br />
+          <a href="tel:+49211123456">+49 (0)211 123 456</a><br />
+          <a href="mailto:info@lonzen-heucher.de">info@lonzen-heucher.de</a>
+        </address>
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="container site-footer__bottom-inner">
+        <p>&copy; <span id="year"></span> Lonzen &amp; Heucher GmbH. Alle Rechte vorbehalten.</p>
+        <ul class="site-footer__legal">
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
