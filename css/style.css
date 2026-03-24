@@ -491,7 +491,7 @@ figure {
   /* Gradient fallback if no image */
   background-color: var(--color-green-dark);
   /* Hero background image – replace with your photo */
-  background-image: url('https://picsum.photos/seed/blumen1/1920/1080');
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipMCB1WQ4B4Ls4_IGToutojxbgy_YbwjVVDTte0O=w1920-h1080');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
