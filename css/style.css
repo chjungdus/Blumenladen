@@ -491,7 +491,7 @@ figure {
   /* Gradient fallback if no image */
   background-color: var(--color-green-dark);
   /* Hero background image – replace with your photo */
-  background-image: url('https://lh3.googleusercontent.com/p/AF1QipMxPw4nhSvpWBYreAihI69MDGPNmF6-z4AqZ3og=w1920-h1080');
+  background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAwerygZaL2pjYfQMSw7ei_I8kHrbVop8FmUwC61y1CNt9RPeCSPGit5ywK5tSSRLn0M4uWrjdiPxdnm0j7IJSVsaslFcioJA-nKHDUsYlZ4f0oYEUq9cAhSLlJyw7iy1VIU9IRnrfjg=w1920-h1080');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
