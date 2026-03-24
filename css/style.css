@@ -488,13 +488,18 @@ figure {
   align-items: center;
   justify-content: center;
 
-  /* Gradient fallback if no image */
   background-color: var(--color-green-dark);
-  /* Hero background image – replace with your photo */
-  background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AHVAwerygZaL2pjYfQMSw7ei_I8kHrbVop8FmUwC61y1CNt9RPeCSPGit5ywK5tSSRLn0M4uWrjdiPxdnm0j7IJSVsaslFcioJA-nKHDUsYlZ4f0oYEUq9cAhSLlJyw7iy1VIU9IRnrfjg=w1920-h1080');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+}
+
+/* Hero background image element (replaces CSS background-image) */
+.hero__bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
 }
 
 .hero__overlay {
