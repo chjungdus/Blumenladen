@@ -491,7 +491,7 @@ figure {
   /* Gradient fallback if no image */
   background-color: var(--color-green-dark);
   /* Hero background image – replace with your photo */
-  background-image: url('../images/shop-1.jpg');
+  background-image: url('https://images.unsplash.com/photo-1490750967868-88df5691cc35?auto=format&fit=crop&w=1920&h=1080&q=80');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
